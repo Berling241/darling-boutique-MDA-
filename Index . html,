@@ -1,0 +1,62 @@
+index . html,
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darling-Boutique - Vente d'accessoires en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Darling-Boutique</h1>
+        <p>Accessoires tech & bijoux - Moanda, Gabon</p>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>Nos Produits</h2>
+            <div class="product-list">
+                <!-- Produit 1 -->
+                <div class="product">
+                    <img src="https://via.placeholder.com/200" alt="Écouteurs Bluetooth">
+                    <h3>Écouteurs Bluetooth</h3>
+                    <p>15 000 FCFA</p>
+                    <button onclick="commander('Écouteurs Bluetooth', 15000)">Commander</button>
+                </div>
+
+                <!-- Produit 2 -->
+                <div class="product">
+                    <img src="https://via.placeholder.com/200" alt="Bracelet tendance">
+                    <h3>Bracelet tendance</h3>
+                    <p>5 000 FCFA</p>
+                    <button onclick="commander('Bracelet tendance', 5000)">Commander</button>
+                </div>
+
+                <!-- Produit 3 -->
+                <div class="product">
+                    <img src="https://via.placeholder.com/200" alt="Collier élégant">
+                    <h3>Collier élégant</h3>
+                    <p>8 000 FCFA</p>
+                    <button onclick="commander('Collier élégant', 8000)">Commander</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="payment">
+            <h2>Paiement</h2>
+            <p>Paiement via : <strong>Moov Money</strong> et <strong>Airtel Money</strong>.</p>
+            <ul>
+                <li>Moov Money : <strong>+241 06 00 00 00</strong></li>
+                <li>Airtel Money : <strong>+241 07 00 00 00</strong></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Darling-Boutique - Moanda, Gabon</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
